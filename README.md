@@ -127,4 +127,82 @@ Going over testing for the Frontend
       * Chrome DevTools Protocol (CDP) enhances puppeteer capabilities.
       * Remote debugging ``` --remote-debugging-port=9222 ```
     * Microsoft equivalent framework - Playwright
+
+
+## Chapter 2 - Challenges Faced by Frontend Web Application Developers
+
+ * Browser Complications Report by Google/Microsoft 2022 - [https://insights.developer.mo](https://insights.developer.mozilla.org/reports/mdn-browser-compatibility-report-2020.html)
+   * Javascript
+    * ECMAScript standard - https://262.ecma.internal.org/12.0/
+    * Top pain point with JS:
+      * Different versions supported by different browsers and separate versions within those browsers. 
+
+  * Quality vs. Velocity
+   * Velocity: delivery frequency depending:
+     * Organization
+     * Team Experience
+     * App Complexity
+     * Scope of Release
+   * Quality: mininal bugs
+     * Reduction of unnecessary risks. 
+   * Processes that assist with the balance:
+     * Continous Delivery
+     * Agile
+     * DevOps
+
+  * Coverage challenges for web application developers
+    * There is great importance in keeping up-to-date on latest versions.
+      * Failure to do so much result in application bugs / breaks due to releases. 
+    * Scheduled browser update releases
+      * Google - https://www.chromestatus.com/features/schedule
+      * Microsoft - https:///wiki.Mozilla.org/Release_Schedule/Calendar   
+    * Focusing on the most popular browsers makes the issues easier to manage.
+      * Stats Counter - https://gs.statcounter.com/browser-market-share/mobile/worldwide
+      * Drilling down to the locations (country, state, city) where the app is used most allows for greater success.
+
+  * High level pain points of web challenges:
+    * Compatibility with new and trending digital platforms as well as old browser support.
+    * Coverage strategy for web and mobile platforms
+    * Style and layout across different browser versions and OS versions (CSS, animation grids)
+    * JavaScript and ECMAScript compatibility across browsers
+    * Complexities around new types of web applications, including PWAs and Flutter
+    * Choosing the right web development framework
+
+  * Non-functional challenges
+    * Performance challenges
+      * Any page that takes longer than 3 seconds is considered unusable. 
+        * This may decrease as time progresses. 
+      * Research by Limelight - https://docs.broadcom.com/doc/its-all-about-the-user-experience
+      * Load/Stress testing is a base requirement to determine performance.
+        * The sooner this type of testing is performance the better - smaller changes are quicker and less riskier.
+        * Testing late in the project may result in unexpected overhauls and delay velocity.  
+        * Key Performance Indicators (KPIs) is the way to measure performance. 
+        * Many browsers have built-in dev tools to assist in measuring perfomance. 
+    * Accessibility challenges
+      * Accessibility practices are governed by: 
+        * ADA compliance - https://get.adaaccessible.com/ada-comliance-law-and-penalties
+        * WCAG - https://www.w3.org/TR/WCAG21/
+          * Finding non-compliance through these organizations may result in large fines ($55,000 - $110,000)
+          * Built-in tools:
+            * Lighthouse - Chrome plugin
+            * AXE - https://www.deque.com/axe from Deque framework.
+
+
+   * Compliance challenges
+     * Focus on data privacy and cyber security
+       * Static Application Security Testing (SAST)
+         * SAST is a method of inspecting and analyzing application source code to determine security vulnerabilities.
+         * This is known as "white box testing" as it test the code in a non-running state. 
+       * Dynamic Application Security Testing (DAST)  
+         * DAST is a method of inspecting and analyzing application source code and compilation. 
+         * This is known as "black box testing" as it tests the code in a running state and compiling.
+        * There is importance in adding additional testing layers dependent on the regulations of the organization i.e. HIPAA for healthcare
+      * Forrester report
+        * A report that keeps track of AI related attacks
+        * https://www.forrester.com/report/Using-AI-For-Evil/RES143162/
+      * You can grab any specific compliance to be used on any pipeline to be checked.
+        * Open Web Applications Security Project (OWASP) - https://owasp.org/www-project-top-ten/ is an example.
+      * Online tools for security training reference:
+        * Secure Code Warrior - https://www.securecodewarrior.com/    
+
    
